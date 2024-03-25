@@ -18,8 +18,8 @@
   </style>
 </head>
 
-<body>
-  <nav class=" bg-slate-200 shadow-sm">
+<body class="h-screen flex flex-col">
+  <nav class="flex-none bg-slate-200 shadow-sm">
     <ul class="grid grid-cols-3">
       <div class=" p-1.5 flex justify-start cursor-default">
         <li class="px-2 py-0.5 flex justify-center items-center">
@@ -63,8 +63,25 @@
       </div>
     </ul>
   </nav>
-
+  <div class="grow bg-slate-200 overflow-y-auto grid grid-cols-[2fr_7fr]">
+    <aside class="bg-slate-500">
+      <ul>
+        <li>x</li>
+        <li>x</li>
+        <li>x</li>
+        <li>x</li>
+        <li>x</li>
+        <li>x</li>
+        <li>x</li>
+      </ul>
+    </aside>
+    <main class="bg-slate-700 overflow-y-auto">
+      <div>hello</div>
+    </main>
   </div>
+  <footer class="flex-shrink-0">
+    hello
+  </footer>
   <!-- <script type="module" src="/src/main.ts"></script> -->
 </body>
 
