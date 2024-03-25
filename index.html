@@ -7,16 +7,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>KenBinary</title>
   <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+
+    * {
+      font-family: "Poppins", sans-serif;
+    }
   </style>
 </head>
 
 <body>
-  <h1 class="text-3xl font-bold underline bg-slate-500">
-    Hello world!
-  </h1>
+  <nav class=" bg-slate-200 shadow-sm">
+    <ul class="grid grid-cols-3">
+      <div class=" p-1.5 flex justify-start cursor-default">
+        <li class="px-2 py-0.5 flex justify-center items-center">
+          <img src="/icons/vscode.svg" class="size-5" alt="vscode icon">
+        </li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">File</li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">Edit</li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">Selection</li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">View</li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">Go</li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">Run</li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">Terminal</li>
+        <li class="px-2 py-0.5 hover:bg-slate-400 rounded-md">Help</li>
+      </div>
+      <div class="flex p-1.5 justify-center cursor-default">
+        <li>Kenneth Joshua D. Becaro</li>
+      </div>
+      <div class="flex justify-end">
+        <div class="p-1.5 flex gap-x-3 cursor-pointer">
+          <li class="flex items-center hover:bg-slate-400 rounded-md p-px">
+            <img class="size-6 " src="/icons/git-compare.svg" alt="git compare icon">
+          </li>
+          <li class="flex items-center hover:bg-slate-400 rounded-md p-px">
+            <img class="size-6" src="/icons/split-screen.svg" alt="split screen icon">
+          </li>
+          <li class="flex items-center hover:bg-slate-400 rounded-md p-px">
+            <img class="size-6" src="/icons/more-actions.svg" alt="more actions icon">
+          </li>
+        </div>
+        <div class="grid grid-cols-3">
+          <li class="flex items-center hover:bg-slate-400 px-1.5">
+            <img class="size-6" src="/icons/minimize-window.svg" alt="minimize window icon">
+          </li>
+          <li class="flex items-center hover:bg-slate-400 px-1.5">
+            <img class="size-6 py-1" src="/icons/restore-window.svg" alt="restore window icon">
+          </li>
+          <li class="flex items-center hover:bg-slate-400 px-1.5">
+            <img class="size-6 " src="/icons/close-window.svg" alt="close window icons">
+          </li>
+        </div>
+      </div>
+    </ul>
+  </nav>
+
   </div>
   <!-- <script type="module" src="/src/main.ts"></script> -->
 </body>
