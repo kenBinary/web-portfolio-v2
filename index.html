@@ -64,19 +64,164 @@
     </ul>
   </nav>
   <div class="grow bg-slate-200 overflow-y-auto grid grid-cols-[2fr_7fr]">
-    <aside class="bg-slate-500">
-      <ul>
-        <li>x</li>
-        <li>x</li>
-        <li>x</li>
-        <li>x</li>
-        <li>x</li>
-        <li>x</li>
-        <li>x</li>
-      </ul>
+    <aside class="flex bg-slate-500">
+      <div class="flex shrink-0 flex-col justify-between bg-green-300">
+        <ul class="flex flex-col items-center cursor-pointer">
+          <li class="p-1 w-full flex justify-center bg-violet-300">
+            <img class="size-12" src="/icons/file-explorer.svg" alt="file explorer">
+          </li>
+          <li class="p-1 w-full flex justify-center bg-rose-300">
+            <img class="size-9" src="/icons/search.svg" alt="file explorer">
+          </li>
+          <li class="p-1 w-full flex justify-center bg-pink-300">
+            <img class="size-9" src="/icons/git-branch.svg" alt="file explorer">
+          </li>
+          <li class="p-1 w-full flex justify-center bg-amber-300">
+            <img class="size-9" src="/icons/debug.svg" alt="file explorer">
+          </li>
+          <li class="p-1 w-full flex justify-center bg-fuchsia-300">
+            <img class="size-11" src="/icons/extension.svg" alt="file explorer">
+          </li>
+        </ul>
+        <ul class="flex flex-col items-center cursor-pointer">
+          <li class="p-1 w-full flex items-center justify-center bg-red-300">
+            <img class="size-10" src="/icons/account.svg" alt="file explorer">
+          </li>
+          <li class="p-1 flex w-full items-center justify-center bg-sky-300">
+            <img class="size-12" src="/icons/settings.svg" alt="file explorer">
+          </li>
+        </ul>
+      </div>
+      <div class="grow bg-orange-200">
+
+        <div class="flex justify-between items-center text-sm bg-teal-400 p-2 h-10">
+          EXPLORER
+          <img class="size-5" src="/icons/more-actions.svg" alt="more actions">
+        </div>
+
+        <div>
+
+          <div class="flex justify-between items-center">
+
+            <div class="flex items-center p-0.5 text-sm gap-1 font-semibold">
+              <img class="size-3.5" src="/icons/arrow-next-v1.svg" alt="folder arrow">
+              ABOUT ME
+            </div>
+
+            <div class="flex gap-1 pr-0.5">
+              <img class="size-4" src="/icons/new-file.svg" alt="new file">
+              <img class="size-4" src="/icons/new-folder.svg" alt="new folder">
+              <img class="size-4" src="/icons/refresh.svg" alt="refresh file">
+              <img class="size-4" src="/icons/collapse.svg" alt="collapse folder">
+            </div>
+
+          </div>
+
+          <div class="flex justify-between items-center pl-3.5 ">
+
+            <div class="flex items-center p-0.5 text-sm gap-1 ">
+              <img class="size-3.5" src="/icons/arrow-next-v1.svg" alt="folder arrow">
+              <img class="size-5" src="/icons/folder-dist.svg" alt="folder arrow">
+              dist
+            </div>
+
+          </div>
+
+          <div class="flex justify-between items-center pl-3.5">
+
+            <div class="flex items-center p-0.5 text-sm gap-1 ">
+              <img class="size-3.5" src="/icons/arrow-next-v1.svg" alt="folder arrow">
+              <img class="size-5" src="/icons/folder-node.svg" alt="folder arrow">
+              node_modules
+            </div>
+
+          </div>
+
+          <div class="flex flex-col justify-between">
+
+            <div class="flex items-center p-0.5 text-sm gap-1 pl-3.5">
+              <img class="size-3.5" src="/icons/arrow-next-v1.svg" alt="folder arrow">
+              <img class="size-5" src="/icons/folder-public.svg" alt="folder arrow">
+              public
+            </div>
+
+            <div class="pl-10 text-sm flex items-center gap-1 py-0.5">
+              <img class="size-5" src="/icons/person-boy.svg" alt="folder arrow">
+              about me
+            </div>
+
+          </div>
+
+          <div class="flex flex-col">
+
+            <div class="flex items-center pl-3.5 p-0.5 text-sm gap-1">
+              <img class="size-3.5" src="/icons/arrow-next-v1.svg" alt="folder arrow">
+              <img class="size-5" src="/icons/folder-src.svg" alt="folder arrow">
+              src
+            </div>
+
+            <div class="pl-10 text-sm flex items-center gap-1  py-0.5">
+              <img class="size-5" src="/icons/person-boy.svg" alt="folder arrow">
+              project 1
+            </div>
+
+            <div class="pl-10 text-sm flex items-center gap-1  py-0.5">
+              <img class="size-5" src="/icons/person-boy.svg" alt="folder arrow">
+              project 2
+            </div>
+
+            <div class="pl-10 text-sm flex items-center gap-1  py-0.5">
+              <img class="size-5" src="/icons/person-boy.svg" alt="folder arrow">
+              project 3
+            </div>
+
+          </div>
+
+        </div>
+
+        <div>
+
+          <div class="flex justify-between items-center">
+
+            <div class="flex items-center p-0.5 text-sm gap-1 font-semibold">
+              <img class="size-3.5" src="/icons/arrow-next-v1.svg" alt="folder arrow">
+              OUTLINE
+            </div>
+
+            <div class="flex gap-1 pr-0.5">
+              <img class="size-4" src="/icons/new-file.svg" alt="new file">
+              <img class="size-4" src="/icons/new-folder.svg" alt="new folder">
+              <img class="size-4" src="/icons/refresh.svg" alt="refresh file">
+              <img class="size-4" src="/icons/collapse.svg" alt="collapse folder">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div>
+          <div class="flex justify-between items-center">
+
+            <div class="flex items-center p-0.5 text-sm gap-1 font-semibold">
+              <img class="size-3.5" src="/icons/arrow-next-v1.svg" alt="folder arrow">
+              TIMELINE
+            </div>
+
+            <div class="flex gap-1 pr-0.5">
+              <img class="size-4" src="/icons/new-file.svg" alt="new file">
+              <img class="size-4" src="/icons/new-folder.svg" alt="new folder">
+              <img class="size-4" src="/icons/refresh.svg" alt="refresh file">
+              <img class="size-4" src="/icons/collapse.svg" alt="collapse folder">
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </aside>
     <main class="bg-slate-700 overflow-y-auto">
-      <div>hello</div>
+      hello
     </main>
   </div>
   <footer class="flex-shrink-0">
